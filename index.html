@@ -3,9 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <title>Struktur Dasar HTML</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+  </head>
   </head>
   <body>
-    <h1>Personal Website</h1>
+    <h1 class="h1-judul">Personal Website</h1>
     <nav>
       <a href="index.html">Home</a> |
       <a href="about-adelio.html">About</a> |
@@ -13,35 +17,40 @@
       <a href="contact-adelio.html">Contact</a> |
       <a href="Pengalaman-Organisasi.html">Pengalaman Organisasi</a>
     </nav>
-    <p>Selamat Datang di Website Profil Saya</p>
+  
     <hr />
-    <h1>Halo, Perkenalkan saya Adelio Rafa Salam</h1>
-    <img
-      src="assets\poto-adelio.jpeg"
-      alt="Foto profil mahasiswa"
-      width="240"
-    />
-    <br />
-    <br />
-    <p>Saya adalah mahasiswa yang sedang belajar pengembangan website</p>
-    <p>Website ini di buat sebagai latihan menggunakan HTML dasar tanpa CCS</p>
-    <p>
-      Di Website ini anda dapat mengenal saya, melihat beberapa project, serta
-      menghubungi saya melalui halaman contact
-    </p>
-    <br />
-    <h2>Yang sedang saya pelajari</h2>
-    <ul>
-      <li>HTML</li>
-      <li>Algoritma pemograman</li>
-      <li>Basis Data</li>
-      <li>Git dan Github</li>
-    </ul>
-
-    <p>Silahkan kunjungi halaman about untuk lebih mengetahui profil saya</p>
+    <h1  class="h1-subjudul">Selamat Datang di Website Profil Saya</h1>
+   <div class="opening">
+      <div class="poto-opening">
+        <img 
+          src="assets\poto-adelio.jpeg"
+          alt="Foto profil mahasiswa"
+          width="240"
+        />
+      </div>
+      <div class="paragraf-opening">
+        <p>Halo, Perkenalkan saya Adelio Rafa Salam. Saya adalah mahasiswa yang sedang belajar pengembangan website. Website ini di buat sebagai latihan menggunakan HTML dasar tanpa CCS.  Di Website ini anda dapat mengenal saya, melihat beberapa project, serta menghubungi saya melalui halaman contact
+        </p>
+      </div>  
+      <div class="list-pelajari">
+        <h1 class="judul-point">Yang sedang saya pelajari</h1>
+        <ul>
+          <li>HTML</li>
+          <li>Algoritma pemograman</li>
+          <li>Basis Data</li>
+          <li>Git dan Github</li>
+        </ul>
+      </div>
+   </div>
+    
+    
+    <p class="paragraf-biasa">Silahkan kunjungi halaman about untuk lebih mengetahui profil saya</p>
     <hr />
-    <p>Terima kasih telah mengunjungi website saya</p>
-    <p>Semoga website ini bermanfaat bagi anda</p>
-    <p>2026 Adelio Rafa Salam</p>
+    <div class="teks-footer">
+      <p>Terima kasih telah mengunjungi website saya</p>
+      <p>Semoga website ini bermanfaat bagi anda</p>
+      <p>2026 Adelio Rafa Salam</p>
+    </div>
+    
   </body>
 </html>

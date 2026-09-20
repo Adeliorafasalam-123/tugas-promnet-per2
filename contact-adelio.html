@@ -2,9 +2,13 @@
   <head>
     <meta charset="UTF-8" />
     <title>Struktur Dasar HTML</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+  </head>
   </head>
   <body>
-    <h1>Contact Me</h1>
+    <h1 class="h1-judul">Contact Me</h1>
     <nav>
       <a href="index.html">Home</a> |
       <a href="about-adelio.html">About</a> |
@@ -13,17 +17,17 @@
       <a href="Pengalaman-Organisasi.html">Pengalaman Organisasi</a>
     </nav>
     <hr />
-    <h2>Informasi Kontak</h2>
-    <p>
+    <h1 class="h1-subjudul">Informasi Kontak</h2>
+    <p class="paragraf-biasa">
       Jika kamu ingin berdiskusi atau bekerja sama, silahkan hubungi saya
       melalui form di bawah ini <strong>atau</strong> bisa hubungi saya melalui
       email ke
       <a href="mailto:adelio1197@student.upi.edu">adelio1197@student.upi.edu</a>
     </p>
     <br />
-    <h2>Form Pesan</h2>
-    <table border="1" cellspacing="0" cellpadding="8">
-      <form>
+    <h1  class="h1-subjudul">Form Pesan</h1>
+    <table border="1" cellspacing="0" cellpadding="8" class="form">
+      <form >
         <tr>
           <td colspan="2">
             <center>From Data Kontak</center>
@@ -95,12 +99,17 @@
         </tr>
       </form>
     </table>
-    <p>
+    <p id="catatan">
       Catatan: Karena website ini hanya menggunakan HTML, Form belum terhubung
       ke server/database.
     </p>
     <hr />
-    <a href="index.html">Kembali lagi keHome</a>
-    <p>2026 Adelio Rafa Salam</p>
+    <div class="teks-footer">
+      <p>Terima kasih telah mengunjungi website saya</p>
+      <p>Semoga website ini bermanfaat bagi anda</p>
+      <a href="index.html">Kembali lagi keHome</a> 
+      <p>2026 Adelio Rafa Salam</p>
+    </div>
+    
   </body>
 </html>
