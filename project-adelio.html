@@ -3,129 +3,168 @@
   <head>
     <meta charset="UTF-8" />
     <title>Struktur Dasar HTML</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Press+Start+2P&family=VT323&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>My Project</h1>
+    <h1 class="h1-judul">My Project</h1>
     <nav>
-       <a href="index.html">Home</a> |
-      <a href="about-adelio.html">About</a> |
+      <a href="index.html">Home</a> | <a href="about-adelio.html">About</a> |
       <a href="project-adelio.html">Project</a> |
       <a href="contact-adelio.html">Contact</a> |
       <a href="Pengalaman-Organisasi.html">Pengalaman Organisasi</a>
     </nav>
-    <hr />
-    <h1>Daftar Project</h1>
-    <p>
+    
+
+    <h1 class="h1-subjudul">Daftar Project</h1>
+    <p class="paragraf-biasa">
       Berikut adalah daftar project sederhana yang pernah saya kerjakan
       sebelumnya
     </p>
-    <h3>Project 1: Membuat alat IoT sederhana</h3>
-    <img
-      src="assets\project alat penyiram otomatis.jpeg"
-      width="240"
-      alt="alat penyiram otomatis"
-    />
-    <p>
-      Pada akhir semester satu, saya bersama kelompok menyelesaikan tugas UTS
-      dengan membuat alat IoT sederhana berupa penyiram tanaman otomatis. Alat
-      ini menggunakan Arduino Uno sebagai mikrokontroler, sensor kelembapan
-      tanah untuk mendeteksi kondisi tanah, LED sebagai indikator, selang dan
-      wadah air sebagai media penyiraman, serta pompa air untuk mengalirkan air
-      ke tanaman. Sistem ini bekerja dengan membaca kelembapan tanah. Jika tanah
-      dalam kondisi kering, pompa akan aktif secara otomatis untuk menyiram
-      tanaman. Program pada Arduino dibuat menggunakan bahasa C/C++ melalui
-      Arduino IDE.
-    </p>
-    <a href="https://youtu.be/Nsk-bdGn3jg" target="_blank"
-      >Cara Penggunaannya</a
-    >
-
-    <br />
-    <h3>Project 2: Membuat Game sederhana</h3>
-    <img src="assets\project game.jpeg" width="240" alt="project game" />
-    <p>
-      Pada akhir semester dua, saya bersama kelompok mengembangkan sebuah game
-      berbasis cerita 3D dengan konsep seperti novel interaktif. Game ini dapat
-      dimainkan melalui laptop maupun perangkat mobile. Ceritanya berfokus pada
-      Kreswara yang secara tidak sengaja menemukan virus di laptopnya. Virus
-      tersebut menyebabkan beberapa wayang masuk ke dalam laptop dan menghilang
-      ke sebuah dimensi lain bernama Dimensi Hybrid. Untuk mengembalikan wayang
-      tersebut dan menghindari masalah dengan orang tuanya, Kreswara harus masuk
-      ke dimensi tersebut. Di sana, ia bertemu dengan sosok misterius bernama
-      As-leen yang tidak memiliki wujud dan membantu Kreswara dalam
-      menyelesaikan misi. Dalam perjalanannya, Kreswara harus melewati berbagai
-      tantangan dan menghadapi beberapa boss. Alur cerita dan akhir permainan
-      bergantung pada pilihan pengguna saat berinteraksi dan menghadapi setiap
-      tantangan, sehingga pemain dapat memperoleh happy ending, sad ending, atau
-      ending yang menggantung.
-    </p>
-    <br />
-    <a
-      href="https://drive.google.com/drive/folders/1HuHHis2mV_zRprQ1YF_F0_HT_79gNASW"
-      target="_blank"
-      >Buka Drive untuk mainkan game nya</a
-    >
-    <br />
-    <h3>Project 3: Membuat project lampu otomatis</h3>
-    <img
-      src="assets\project-lampu jalanan.jpeg"
-      width="240"
-      alt="project pkn"
-    />
-    <p>
-      Pada akhir semester satu, saya bersama satu kelas mengembangkan project
-      IoT sederhana berupa miniatur lingkungan perumahan dengan sistem lampu
-      otomatis. Project ini dibuat dalam bentuk kotak yang di dalamnya terdapat
-      miniatur rumah, jalan, dan beberapa elemen lingkungan seperti hewan.
-      Sistem menggunakan sensor cahaya untuk mendeteksi kondisi lingkungan.
-      Ketika kondisi gelap, lampu pada miniatur rumah dan lingkungan akan
-      menyala secara otomatis. Sebaliknya, ketika kondisi terang, lampu akan
-      mati secara otomatis. Project ini menjadi salah satu penerapan sederhana
-      IoT dalam menciptakan sistem yang dapat merespons kondisi lingkungan
-      secara otomatis
-    </p>
-
-    <br />
-    <a href="https://youtu.be/ypYVczt8i_I?si=bfINQC2QmGAjILF1" target="_blank"
-      >Buka situs youtube untuk melihat dokumentasi pembuatan project</a
-    >
-    <h3>Project 4: Membuat showcase Pendidikan Pancasila</h3>
-    <img src="assets\project pkn.jpeg" width="240" alt="project pkn" />
-    <p>
-      Pada akhir semester satu, saya bersama kelompok menyelesaikan tugas
-      Showcase Pendidikan Pancasila dengan mengangkat isu lingkungan dan
-      eksploitasi wilayah di Papua. Kami membahas kasus tersebut melalui kajian
-      sederhana yang dikemas dalam bentuk edukasi. Pada bagian awal, kami
-      menjelaskan latar belakang Indonesia sebagai negara kepulauan yang
-      memiliki kekayaan alam dan wilayah yang luas. Selanjutnya, kami mengulas
-      permasalahan yang terjadi, seperti eksploitasi sumber daya alam yang
-      berlebihan akibat kepentingan ekonomi dan keserakahan manusia, serta
-      dampaknya terhadap lingkungan dan masyarakat. Pada bagian akhir, kami
-      menawarkan beberapa solusi, seperti meningkatkan edukasi dan kesadaran
-      masyarakat mengenai lingkungan, memperkuat pengawasan terhadap pengelolaan
-      sumber daya alam, serta mendorong pemerintah dan masyarakat di berbagai
-      daerah untuk menerapkan nilai-nilai Pancasila dalam menjaga lingkungan dan
-      kepentingan bersama.
-    </p>
-    <br />
-    <h3>Project 5: Membuat Buku Pendidikan & Teknologi</h3>
-    <img src="assets\buku.jpeg" width="240" alt="pembuatan buku" />
-    <p>
-      Pada akhir semester satu, saya bersama satu kelas membuat sebuah buku
-      berjudul “Pendidikan dan Teknologi” dalam mata kuliah Bahasa Indonesia.
-      Buku ini membahas berbagai keterkaitan antara perkembangan teknologi dan
-      dunia pendidikan. Beberapa topik yang dibahas meliputi pemanfaatan AI
-      dalam pembelajaran, dampak penggunaan teknologi terhadap pendidikan, serta
-      penerapan teknologi untuk mendukung proses belajar mengajar. Melalui
-      project ini, kami belajar menyusun dan mengembangkan gagasan dalam bentuk
-      karya tulis yang membahas isu pendidikan dan teknologi secara terstruktur.
-    </p>
-    <br />
-    <a href="https://share.google/j2NNWNPDsgIvWYCzn" target="_blank"
-      >Buka situs Gramedia Digital untuk membeli buku</a
-    >
+    <div class="contener">
+      <div class="content">
+        <h3 class="h3-subjudul">Project 1: Membuat alat IoT sederhana</h3>
+        <img
+          src="assets\project alat penyiram otomatis.jpeg"
+          width="240"
+          alt="alat penyiram otomatis"
+        />
+        <p class="paragraf-biasa">
+          Pada akhir semester satu, saya bersama kelompok menyelesaikan tugas
+          UTS mata kuliah Pengantar PSTI dengan membuat alat IoT berupa penyiram
+          tanaman otomatis. Alat ini menggunakan Arduino Uno sebagai
+          mikrokontroler, sensor kelembapan tanah untuk mendeteksi kondisi
+          tanah, LED sebagai indikator, serta pompa air untuk mengalirkan air ke
+          tanaman. Sistem bekerja dengan membaca tingkat kelembapan tanah secara
+          otomatis. Jika tanah dalam kondisi kering, pompa akan aktif untuk
+          menyiram tanaman. Sebaliknya, ketika tanah cukup lembap, pompa akan
+          berhenti. Program Arduino dibuat menggunakan bahasa C/C++ melalui
+          Arduino IDE.
+        </p>
+        <a href="https://youtu.be/Nsk-bdGn3jg" target="_blank"
+          >Buka situs youtube ini untuk melihat langkah pembuatan dan cara kerja
+          projek
+        </a>
+      </div>
+      <div class="content">
+        <h3 class="h3-subjudul">Project 2: Membuat Game sederhana</h3>
+        <img src="assets\project game.jpeg" width="240" alt="project game" />
+        <p class="paragraf-biasa">
+          Pada akhir semester dua, saya bersama kelompok menyelesaikan tugas UAS
+          mata kuliah Analisis dan Perancangan Sistem Informasi dengan membuat
+          game berbasis cerita 3D berkonsep novel interaktif. Game ini dapat
+          dimainkan melalui laptop maupun perangkat mobile. Ceritanya berfokus
+          pada Kreswara yang menemukan virus hingga beberapa wayang masuk ke
+          Dimensi Hybrid. Untuk mengembalikannya, Kreswara harus memasuki
+          dimensi tersebut dan bertemu As-leen, sosok misterius yang membantunya
+          menyelesaikan misi. Dalam perjalanan, Kreswara menghadapi berbagai
+          tantangan dan boss. Akhir permainan bergantung pada pilihan pemain.
+        </p>
+        <a
+          href="https://drive.google.com/drive/folders/1HuHHis2mV_zRprQ1YF_F0_HT_79gNASW"
+          target="_blank"
+          >Buka Drive untuk melihat detail hasil projek</a
+        >
+      </div>
+      <div class="content">
+        <h3 class="h3-subjudul">Project 3: Membuat project lampu otomatis</h3>
+        <img
+          src="assets\project-lampu jalanan.jpeg"
+          width="240"
+          alt="project pkn"
+        />
+        <p class="paragraf-biasa">
+          Pada akhir semester satu, saya bersama satu kelas telah menyelesaikan
+          tugas UAS mata kuliah Pengantar PSTI dengan membuat project IoT berupa
+          miniatur lingkungan perumahan dengan sistem lampu otomatis. Project
+          ini berbentuk kotak yang berisi miniatur rumah, jalan, dan beberapa
+          elemen lingkungan seperti hewan. Sistem menggunakan sensor cahaya
+          untuk mendeteksi kondisi sekitar. Ketika gelap, lampu pada miniatur
+          rumah dan lingkungan menyala otomatis. Sebaliknya, ketika terang,
+          lampu mati. Project ini menjadi penerapan sederhana IoT dalam
+          merespons perubahan kondisi lingkungan.
+        </p>
+        <a
+          href="https://youtu.be/ypYVczt8i_I?si=bfINQC2QmGAjILF1"
+          target="_blank"
+          >Buka situs youtube untuk melihat dokumentasi pembuatan dan cara kerja
+          project</a
+        >
+        <br />
+      </div>
+      <div class="content">
+        <h3 class="h3-subjudul">
+          Project 4: Membuat showcase Pendidikan Pancasila
+        </h3>
+        <img src="assets\project pkn.jpeg" width="240" alt="project pkn" />
+        <p class="paragraf-biasa">
+          Pada akhir semester satu, saya bersama kelompok menyelesaikan tugas
+          UAS mata kuliah Pendidikan Pancasila dengan mengadakan showcase hasil
+          diskusi isu lingkungan dan eksploitasi wilayah di Papua. Kami membahas
+          permasalahan tersebut melalui kajian sederhana dalam bentuk edukasi.
+          Kami menjelaskan kekayaan alam Indonesia, permasalahan eksploitasi
+          sumber daya alam, serta dampaknya terhadap lingkungan dan masyarakat.
+          Pada bagian akhir, kami menawarkan solusi melalui edukasi lingkungan,
+          pengawasan pengelolaan sumber daya alam, serta penerapan nilai-nilai
+          Pancasila dalam menjaga lingkungan dan kepentingan bersama.
+        </p>
+      </div>
+      <div class="content">
+        <h3 class="h3-subjudul">
+          Project 5: Membuat Buku Pendidikan & Teknologi
+        </h3>
+        <img src="assets\buku.jpeg" width="150" alt="pembuatan buku" />
+        <p class="paragraf-biasa">
+          Pada akhir semester satu, saya bersama satu kelas menyelesaikan tugas
+          UAS mata kuliah Bahasa Indonesia dengan membuat sebuah buku berjudul
+          “Pendidikan dan Teknologi”. Buku ini membahas berbagai keterkaitan
+          antara perkembangan teknologi dan dunia pendidikan. Beberapa topik
+          yang dibahas meliputi pemanfaatan AI dalam pembelajaran, dampak
+          penggunaan teknologi terhadap pendidikan, serta penerapan teknologi
+          untuk mendukung proses belajar mengajar. Melalui project ini, kami
+          belajar menyusun dan mengembangkan gagasan dalam bentuk karya tulis
+          yang membahas isu pendidikan dan teknologi secara terstruktur.
+        </p>
+        <a href="https://share.google/j2NNWNPDsgIvWYCzn" target="_blank"
+          >Buka situs Gramedia Digital untuk membeli buku</a
+        >
+      </div>
+      <div class="content">
+        <h3 class="h3-subjudul">Project 6: Membuat Platform DIgital</h3>
+        <img src="assets/zhs.jpeg" width="150" alt="Platform" />
+        <p class="paragraf-biasa">
+          Pada awal semester dua, saya bersama tim mengembangkan platform bisnis
+          penyedia jasa tour guide bernama Zam-zam Hidden Spot untuk memenuhi
+          UTS mata kuliah Analisis dan Perancangan Sistem Informasi. Platform
+          ini menyediakan tiga kategori tour guide, yaitu siswa dan mahasiswa
+          dari jurusan pariwisata, lulusan pariwisata, serta masyarakat yang
+          memiliki pengalaman dan pengetahuan mengenai pariwisata. Project ini
+          bertujuan membuka peluang kerja di sektor pariwisata sekaligus
+          membantu wisatawan menemukan tour guide sesuai kebutuhan. Kami juga
+          merancang antarmuka yang aman, terpercaya, dan eksploratif dengan
+          elemen visual serta design system yang konsisten.
+        </p>
+        <a
+          href="https://drive.google.com/drive/folders/1nhFfZ2ONNSEqVhUdg7g0FvDkmzljEV1K"
+          target="_blank"
+          >Buka drive untuk melihat detail hasil projek</a
+        >
+      </div>
+    </div>
     <hr />
-    <a href="index.html">Kembali lagi keHome</a>
-    <p>2026 Adelio Rafa Salam</p>
+     <div class="teks-footer">
+      <p>Terima kasih telah mengunjungi website saya</p>
+      <p>Semoga website ini bermanfaat bagi anda</p>
+      <a  href="index.html">Kembali lagi keHome</a> 
+      <p>2026 Adelio Rafa Salam</p>
+    </div>
+   
   </body>
 </html>
